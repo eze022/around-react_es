@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import heartIcon from "../images/heart-icon.svg";
 import trash from "../images/trash.svg";
 
-function Cards(props) {
+function Card(props) {
   return (
     <>
       <li className="elements__cards" key={props._id}>
@@ -29,4 +29,4 @@ function Cards(props) {
   );
 }
 
-export default Cards;
+export default Card;

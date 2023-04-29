@@ -1,13 +1,10 @@
 import { useState, useEffect } from "react";
-import avatar from "../images/avatar.svg";
 import pencilPhoto from "../images/pencil-photo.svg";
 import pencil from "../images/pencil.svg";
 import plus from "../images/plus.svg";
 import closeIcon from "../images/Close-Icon.svg";
-import Yosemite from "../images/Yosemite.svg";
 import { api, card } from "../utils/api.js";
-import PopupWithForm from "./PopupWithForm.js";
-import Cards from "./Card.js";
+import Card from "./Card.js";
 
 function Main(props) {
   const [userName, setUserName] = useState("");
@@ -87,7 +84,7 @@ function Main(props) {
           <ul className="elements__table">
             {cards.map((card) => {
               return (
-                <Cards
+                <Card
                   key={card._id}
                   card={card}
                   name={card.name}
