@@ -1,0 +1,12 @@
+.elements__popup-container {
+  position: fixed;
+  top: 145px;
+  left: calc(50vw - 37.5%);
+  z-index: 2;
+}
+
+@media screen and (min-width: 832px) {
+  .elements__popup-container {
+    left: calc(50vw - 313px);
+  }
+}

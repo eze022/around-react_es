@@ -1,0 +1,16 @@
+.profile-info__container-info {
+  margin: 1.875rem 0 0.875rem;
+  box-sizing: border-box;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+@media screen and (min-width: 1280px) {
+  .profile-info__container-info {
+    flex-direction: row;
+    column-gap: 16px;
+    margin-top: 0;
+    margin-bottom: 0.8125rem;
+  }
+}

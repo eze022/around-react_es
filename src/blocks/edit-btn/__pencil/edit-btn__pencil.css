@@ -1,0 +1,20 @@
+.edit-btn__pencil {
+  padding: 4.25px 4.25px;
+  width: 7.5px;
+  height: 7.5px;
+  border: 1px solid #ffffff;
+  transition: opacity 1s linear;
+}
+
+.edit-btn__pencil:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1280px) {
+  .edit-btn__pencil {
+    min-width: 10px;
+    min-height: 10px;
+    padding: 6px 6px;
+  }
+}

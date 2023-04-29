@@ -1,0 +1,8 @@
+.elements__container-info {
+  margin: 0;
+  width: 87.23404255319149%;
+  padding: 1.5625rem 0 1.9375rem;
+  display: flex;
+  justify-content: center;
+  column-gap: 9px;
+}

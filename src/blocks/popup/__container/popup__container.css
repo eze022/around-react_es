@@ -1,0 +1,10 @@
+.popup__container {
+  margin: 0 auto;
+  width: 84.39716312056738%;
+}
+
+@media screen and (min-width: 1280px) {
+  .popup__container {
+    width: 83.25581395348837%;
+  }
+}

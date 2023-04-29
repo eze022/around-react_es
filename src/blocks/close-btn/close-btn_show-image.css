@@ -1,0 +1,19 @@
+.close-btn_show-image {
+  transform: translate(calc(20% - 30px));
+  position: absolute;
+  right: -55px;
+  top: -30px;
+  transition: opacity 1s linear;
+}
+
+.close-btn_show-image:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1280px) {
+  .close-btn_show-image {
+    top: -40px;
+    right: -65px;
+  }
+}

@@ -1,0 +1,19 @@
+.add-btn {
+  background-color: black;
+  padding: 15px 131px;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  transition: opacity 1s linear;
+}
+
+.add-btn:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1280px) {
+  .add-btn {
+    min-width: 22px;
+    padding: 12px 62px;
+  }
+}

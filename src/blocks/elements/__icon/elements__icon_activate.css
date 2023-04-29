@@ -1,0 +1,6 @@
+.elements__icon_activate {
+  opacity: 1;
+  background-image: url(../../../images/heart-icon-black.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}

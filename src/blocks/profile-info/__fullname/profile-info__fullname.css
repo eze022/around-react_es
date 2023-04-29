@@ -1,0 +1,19 @@
+.profile-info__fullname {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 500px;
+}
+
+@media screen and (min-width: 1280px) {
+  .profile-info__fullname {
+    font-size: 42px;
+    line-height: 1.143;
+  }
+}

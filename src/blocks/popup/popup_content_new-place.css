@@ -1,0 +1,22 @@
+.popup_content_new-place {
+  width: 88.125%;
+  max-width: 430px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 25px 0;
+  position: fixed;
+  top: 135px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s, visibility 0.5s linear;
+  z-index: 2;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (min-width: 1280px) {
+  .popup_content_new-place {
+    top: 201px;
+    left: calc(50vw - 215px);
+    padding: 34px 0 36.51px;
+  }
+}
