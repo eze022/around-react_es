@@ -7,7 +7,7 @@ import closeIcon from "../images/Close-Icon.svg";
 import Yosemite from "../images/Yosemite.svg";
 import { api, card } from "../utils/api.js";
 import PopupWithForm from "./PopupWithForm.js";
-import Cards from "./Cards.js";
+import Cards from "./Card.js";
 
 function Main(props) {
   const [userName, setUserName] = useState("");
