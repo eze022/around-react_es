@@ -29,16 +29,16 @@ export class Api {
 const api = new Api({
   options: {
     address: "https://around.nomoreparties.co/v1/web_es_cohort_03/users/me",
-    groupId: `web_es_cohort_03`, // CHANGE IT WITH YOUR COHORT
-    token: `6bf7647c-45da-4c77-891f-7b53e2ffb971`, // CHANGE IT WITH YOUR TOKEN
+    groupId: `web_es_cohort_03`,
+    token: `6bf7647c-45da-4c77-891f-7b53e2ffb971`,
   },
 });
 
 const card = new Api({
   options: {
     address: "https://around.nomoreparties.co/v1/web_es_cohort_03/cards",
-    groupId: `web_es_cohort_03`, // CHANGE IT WITH YOUR COHORT
-    token: `6bf7647c-45da-4c77-891f-7b53e2ffb971`, // CHANGE IT WITH YOUR TOKEN
+    groupId: `web_es_cohort_03`,
+    token: `6bf7647c-45da-4c77-891f-7b53e2ffb971`,
   },
 });
 

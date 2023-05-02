@@ -1,12 +1,9 @@
-/* import logo from "./logo.svg"; */
-/* import tittle from "./images/tittle.svg"; */
-/* import avatar from "./images/avatar.svg"; */
 import React, { useState } from "react";
-import Header from "./components/Header.js";
-import Main from "./components/Main.js";
-import Footer from "./components/Footer.js";
-import PopupWithForm from "./components/PopupWithForm.js";
-import ImagePopup from "./components/ImagePopup.js";
+import Header from "./Header.js";
+import Main from "./Main.js";
+import Footer from "./Footer.js";
+import PopupWithForm from "./PopupWithForm.js";
+import ImagePopup from "./ImagePopup.js";
 
 function App() {
   const [isEditProfilePopupOpen, setIsEditProfilePopupOpen] = useState(false);
@@ -155,5 +152,4 @@ function App() {
   );
 }
 
-/* export { handleAddPlaceClick, handleEditAvatarClick, handleEditProfileClick }; */
 export default App;
